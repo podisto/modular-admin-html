@@ -7,7 +7,7 @@
 </a>
 
 <a href="http://modularcode.github.io/modular-admin-html/" target="_blank">
-![HTML5 jQuery Bootstrap4 SASS Handlebars Gulp Bower](http://modularcode.github.io/modular-admin-html/assets/features.png) 
+![HTML5 jQuery Bootstrap4 SASS Handlebars Gulp Bower](http://modularcode.github.io/modular-admin-html/assets/features.png)
 </a>
 
 <p align="center">
@@ -40,7 +40,7 @@ The cloned repository desn't contain prebuilt version of the project and you nee
 
 ## Other versions
 
-This is the HTML version, which is great for enhancing and integrating it into other platforms and environments. 
+This is the HTML version, which is great for enhancing and integrating it into other platforms and environments.
 AngularJS, Angular2, React and Meteor versions are coming soon.
 
 ### Table of contents
@@ -66,7 +66,7 @@ Some of the components use the new Flexbox Layout module which is available in m
 <br>
 ## Development
 
-For building the application, you need to have [NodeJs](https://nodejs.org/en/) with npm. You also need to have [Bower](http://bower.io/) installed globally. 
+For building the application, you need to have [NodeJs](https://nodejs.org/en/) with npm. You also need to have [Bower](http://bower.io/) installed globally.
 
 After [downloading](#download) run the following commands from the project folder:
 
@@ -75,12 +75,12 @@ Install bower globally
 npm install -g bower
 ```
 
-Install npm dependencies 
+Install npm dependencies
 ```
 npm install
 ```
 
-Install front-end bower dependencies 
+Install front-end bower dependencies
 ```
 bower install
 ```
@@ -109,13 +109,13 @@ Open the project [http://localhost:4000](http://localhost:4000).
 
 #### ```src/``` folder
 
-This folder contains our application source files. 
+This folder contains our application source files.
 The folder structure reflects the app component structure.
 
 
 Each non-underscored folder represents a single component module. Modules can be nested inside each other.
 
-There are also special folders which start with an underscore. 
+There are also special folders which start with an underscore.
 For example ```_common/``` folder contains common components that are used by other components at the same level.
 
 This file structuring makes our app file organization very semantic and scalable. Also It's very easy to work on separate components even if you're developing large-scale applications.
@@ -177,8 +177,8 @@ Our app consists of different file types.
 
 #### Styles (*.scss)
 
-We use [SASS](http://sass-lang.com/) as CSS preprocessor language. 
-Main variables are defined in ```src/_variables.scss``` folder. 
+We use [SASS](http://sass-lang.com/) as CSS preprocessor language.
+Main variables are defined in ```src/_variables.scss``` folder.
 For making life easier we broke down styles into components, and on build we're just merging all ```.scss``` files together and processing it to ```dist/css/app.css``` file. Style files are merged in the following order
 
 ```
@@ -216,7 +216,7 @@ Pages can consist of different templates (partials) which can be included thanks
 ```
 ---
 foo: bar
-list: 
+list:
   - One
   - Two
   - Three
@@ -266,7 +266,7 @@ In addition to application files, there are also third party plugin files (e.g. 
 <br>
 ## Get in touch
 
-You can get in touch with us in gitter chat [![Join the chat at https://gitter.im/modularcode/modular-admin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/modularcode/modular-admin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or in the [ModularCode Facebook Group](https://www.facebook.com/groups/710770032358423/). 
+You can get in touch with us in gitter chat [![Join the chat at https://gitter.im/modularcode/modular-admin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/modularcode/modular-admin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or in the [ModularCode Facebook Group](https://www.facebook.com/groups/710770032358423/).
 Feel free to contact us with any questions, sugestions, remarks and potential feature requests that you might have.
 
 * Gevorg Harutyunyan | [LinkedIn](https://www.linkedin.com/profile/view?id=AAMAAA7ne4gBF-IVNsoiBaeOeDTd5YGSTVN2eBs) |  [Facebook](https://www.facebook.com/madextreme) | [Twitter](https://twitter.com/mad4extreme) | [gevharut@gmail.com](mailto:gevharut@gmail.com)
